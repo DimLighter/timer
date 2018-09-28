@@ -1,4 +1,4 @@
-package com.hhg.jerry.springquartz;
+package com.hhg.jerry;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -8,8 +8,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Test {
     public static void main(String[] args){
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
-        System.out.println("spring initi...");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml","spring-time.xml");
+        System.out.println("spring initialized...");
         try {
             Thread.sleep(20000);
         } catch (InterruptedException e) {

@@ -1,4 +1,4 @@
-package com.hhg.jerry.springquartz.job;
+package com.hhg.jerry.job;
 
 /**
  * Created by lining on 2018/9/28.
