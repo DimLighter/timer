@@ -9,7 +9,7 @@ import java.util.Date;
  * Created by lina on 2018/9/28.
  */
 @Component
-public class SpringAnnotationTask {
+public class SpringAnnotationTask1 {
     @Scheduled(cron = "0/4 * * * * *")
     public void doJob(){
         System.out.println("Thread:" + Thread.currentThread().getName() + " " +
